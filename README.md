@@ -6,7 +6,7 @@ It's been designed to work with the MYSQLI QUERY.
 The only Code in the MYSQLI that you need to remember is have the Connection to the Database available.
 
 
-<?php
+  <?php
 
   $db['DB_HOST'] = "host"; //host will be server name or localhost
   $db['DB_USER'] = "dbusername"; // dbusername will be the database user name
@@ -27,4 +27,4 @@ The only Code in the MYSQLI that you need to remember is have the Connection to 
   die("QUERY FAILED " . mysqli_error($connection));
   }
 
-?>
+  ?>
